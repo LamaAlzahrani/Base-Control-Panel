@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<head>
+    <title>
+        Base Contrl Panel
+    </title>
+</head>
+<h1>
+    Base Contrl Panel
+</h1>
+
+<body>
+    <link rel="stylesheet" href="style.css">
+    <iframe name="dummyframe" id="dummyframe" style="display: none;" title=""> </iframe>
+    <form id="myForm" action="index.php" method="POST" target="dummyframe">
+        <div class="stop">
+            <input id="s" type="submit" name="stop" value="Stop" onclick="stopfun()">
+        </div>
+
+        <div class="ff" id="f">
+            <input  type="submit" name="forward" value="FORWARD"onclick=" forfun()">
+        </div>
+
+        <div class="BACKWARD">
+            <input  type="submit" name="backward" value="BACKWARD"onclick="bacfun()">
+        </div>
+
+        <div class="LEFT">
+            <input  type="submit" name="left" value="LEFT"onclick="leftfun()">
+        </div>
+
+        <div class="RIGHT">
+            <input  type="submit" name="right" value="RIGHT"onclick=" rightfun()">
+        </div>
+
+    </form>
+    <script type="text/javascript">
+        function stopfun(){
+            location.href="s.html";
+        }
+        function leftfun(){
+            location.href="l.html";
+        }
+        function rightfun(){
+            location.href="r.html";
+        }
+        function forfun(){
+            location.href="f.html";
+        }
+        function bacfun(){
+            location.href="b.html";
+        }
+        
+    </script>
+</body>
+
+</html>
