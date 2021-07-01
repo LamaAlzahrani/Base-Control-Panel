@@ -10,3 +10,4 @@ The repository is a web page for controlling the base directions of the competit
 -f.html  <br>
 -b.html  <br>
 -s.html  <br>
+-BaseControlPanel.png
